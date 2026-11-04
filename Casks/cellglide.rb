@@ -23,6 +23,7 @@ cask "cellglide" do
               args:         ["--stop-network"],
               must_succeed: false,
             },
+            launchctl:    "com.kikohz.cellproxy.mac.usb",
             quit:         "com.kikohz.cellproxy.mac",
             script:       {
               executable:   "#{appdir}/CellGlide.app/Contents/MacOS/CellProxyMac",
