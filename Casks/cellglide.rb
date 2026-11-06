@@ -1,6 +1,6 @@
 cask "cellglide" do
-  version "1.3.1"
-  sha256 "6764b1f10bac4236ee228467017d173d422f6c6690eaa3bba53164dca7667e56"
+  version "1.4.0"
+  sha256 "47d3265f582c76194583e2ff08e0f23c5191f804a12326bee99fd0d3d6c1f57e"
 
   url "https://cellglide.com/downloads/CellGlide-#{version}-macOS-universal.zip"
   name "CellGlide"
